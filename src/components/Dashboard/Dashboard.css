@@ -1,0 +1,158 @@
+body {
+    justify-content: center;
+}
+
+.header_projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e9ecef;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.logo {
+    height: 50px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.theme-toggle,
+.logout-btn {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.theme-toggle:hover,
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+.container_projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-section,
+.routes-section {
+    width: 48%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 55rem;
+    overflow-y: auto;
+}
+
+
+
+
+h4 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dee2e6;
+    padding-bottom: 10px;
+    color: #495057;
+    margin-top: 0;
+}
+
+.route-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.route-form input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.no-routes {
+    text-align: center;
+    background-color: #bd3e3a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.route-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+}
+
+.route-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.route-info {
+    flex: 1;
+}
+
+.route-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.update-btn,
+.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #a10d0d;
+    color: #fff;
+}
+
+.update-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-btn:hover {
+    background-color: #820000;
+}

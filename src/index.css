@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1REM = 10px */
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+/* Globales */
+h1, 
+h2, 
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.contenedor {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+
+.btn {
+    background-color: #87b403;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.btn:hover {
+    background-color: #769c02;
+    cursor: pointer;
+}
+
+/** Utilidades */
+.text-center {
+    text-align: center;
+}
+
+
+
+/* Formulario */
+
+.formulario {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.formulario fieldset {
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+.formulario legend {
+    background-color: #005485;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    margin-bottom: 4rem;
+
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo label {
+    flex-basis: 10rem;
+} 
+.campo input:not([type="radio"]),
+.campo textarea,
+.campo select  {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+
+.enlace{
+    display: block;
+    text-align: right;
+    color: #005485;
+    text-decoration: underline;
+}
